@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/jQueryUI.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+<header class="header">
+    <div class="header__inner">
+        <div class="header__left">
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <span class="header__left-text">6 brands</span>
+        </div>
+        <div class="header__right">
+            <a href="#">
+                <img src="img/favorite.svg" alt="">
+            </a>
+            <button class="header__search">
+                <img src="img/search.svg" alt="">
+            </button>
+            <a href="#">
+                <img src="img/user.svg" alt="">
+            </a>
+            <a href="#" class="header__basket">
+                <img src="img/basket.svg" alt="">
+            </a>
+        </div>
+    </div>
+</header>    <main>
+        <div class="catalog-head">
+            <div class="navigation">
+                <span class="nav__item current">Женские рубашки</span>
+                <a href="#" class="nav__item">Льняные</a>
+                <a href="#" class="nav__item">Шелковые рубашки</a>
+                <a href="#" class="nav__item">Рубашки Из Поплина</a>
+                <a href="#" class="nav__item">Белые рубашки</a>
+                <a href="#" class="nav__item">Рубашки с принтами</a>
+            </div>
+            <div class="filter">
+                <div class="range-slider" id="range"></div>
+                <div class="filter-text">Фильтры</div>
+            </div>
+            <div class="filter-aside">
+                <div class="close-filter">X</div>
+                <div class="filter-aside__head">
+                    Фильтр 1
+                </div>
+                <div class="filter-aside__body">
+                    <div class="aside__body-item">
+                        <label class="control control-checkbox">
+                            Filter item
+                            <input type="checkbox" checked="checked" />
+                            <span class="control_indicator"></span>
+                        </label>
+                    </div>
+                    <div class="aside__body-item">
+                        <label class="control control-checkbox">
+                            Filter item
+                            <input type="checkbox" checked="checked" />
+                            <span class="control_indicator"></span>
+                        </label>
+                    </div>
+                    <div class="aside__body-item">
+                        <label class="control control-checkbox">
+                            Filter item
+                            <input type="checkbox" checked="checked" />
+                            <span class="control_indicator"></span>
+                        </label>
+                    </div>
+                    <div class="aside__body-item">
+                        <label class="control control-checkbox">
+                            Filter item
+                            <input type="checkbox" checked="checked" />
+                            <span class="control_indicator"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="filter-aside__head">
+                    Фильтр 2
+                </div>
+                <div class="filter-aside__body">
+                    <div class="aside__body-item">
+                        <label class="control control-checkbox">
+                            Filter item
+                            <input type="checkbox" checked="checked" />
+                            <span class="control_indicator"></span>
+                        </label>
+                    </div>
+                    <div class="aside__body-item">
+                        <label class="control control-checkbox">
+                            Filter item
+                            <input type="checkbox" checked="checked" />
+                            <span class="control_indicator"></span>
+                        </label>
+                    </div>
+                    <div class="aside__body-item">
+                        <label class="control control-checkbox">
+                            Filter item
+                            <input type="checkbox" checked="checked" />
+                            <span class="control_indicator"></span>
+                        </label>
+                    </div>
+                    <div class="aside__body-item">
+                        <label class="control control-checkbox">
+                            Filter item
+                            <input type="checkbox" checked="checked" />
+                            <span class="control_indicator"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cards__box cards__box--normal">
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+                <div class="product__card product__card--normal">
+                    <div class="product__card-head">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="product__card-name">
+                        <span>Название вещи</span>
+                    </div>
+                    <div class="product__card-price">
+                        9,999 РУБ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<footer class="footer">
+    <div class="footer__inner container">
+        <div class="footer__col">
+            <a href="#" class="footer__link">Капсулы</a>
+            <a href="#" class="footer__link">Контакты</a>
+        </div>
+        <div class="footer__col">
+            <a href="#" class="footer__link">Капсулы</a>
+            <a href="#" class="footer__link">Контакты</a>
+        </div>
+        <div class="footer__col">
+            <a href="#" class="footer__link">Капсулы</a>
+            <a href="#" class="footer__link">Контакты</a>
+        </div>
+        <div class="footer__col">
+            <a href="#" class="footer__link">Капсулы</a>
+            <a href="#" class="footer__link">Контакты</a>
+        </div>
+    </div>
+</footer>    <script src="js/jQuery.js"></script>
+    <script src="js/jQueryUI.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
